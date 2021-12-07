@@ -1,0 +1,9 @@
+
+intent: ask_rasax
+examples: |
+  - I want information about rasa x
+  - I want to learn more about Rasa X
+  - what is rasa x?
+  - Can you tell me about rasa x?
+  - Tell me about rasa x
+  - tell me what is rasa x

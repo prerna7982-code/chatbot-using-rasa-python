@@ -1,0 +1,49 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - faq
+  - ask_channels
+  - ask_rasax
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_noworries:
+  - text: No worries!
+  
+  utter_ask_channels:
+  - text: "Rasa Open Source provides many built-in connectors to connect to common messaging and voice channels."
+  
+  utter_ask_rasax:
+  - text: "Rasa X is a tool that helps you build, improve, and deploy AI Assistants that are powered by the Rasa framework."
+  
+  utter_faq:
+  - text: "You can use Rasa to build assistants in any language you want!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

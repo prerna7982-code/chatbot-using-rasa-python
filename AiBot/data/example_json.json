@@ -1,0 +1,5 @@
+{
+   "intent":"ask_rasax",
+   "examples":"- I want information about rasa x\n- I want to learn more about Rasa X\n- what is rasa x?\n- Can you tell me about rasa x?\n- Tell me about rasa x\n- tell me what is rasa x\n"
+   
+}
